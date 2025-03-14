@@ -1,6 +1,6 @@
 
 //Import readlinesync 
-let readlineSync = require('readline-sync');
+const readlineSync = require('readline-sync');
 
 // to prompt a user for input
 let userInput = readlineSync.question("Can you enter a string: ");
